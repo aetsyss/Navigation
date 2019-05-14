@@ -9,8 +9,14 @@
 /* Begin PBXBuildFile section */
 		9C9094E53819472C7C5AA486 /* Pods_Navigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDD441D1C293C82F3688B21 /* Pods_Navigation.framework */; };
 		BE0A6CD2228B1FA7003CCC96 /* Instantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A6CD1228B1FA6003CCC96 /* Instantiation.swift */; };
+		BE57DF80228B219F003D2E0F /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57DF7F228B219F003D2E0F /* UsersTableViewController.swift */; };
+		BE57DF82228B26EB003D2E0F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE57DF81228B26EB003D2E0F /* Profile.storyboard */; };
+		BE57DF84228B2764003D2E0F /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57DF83228B2764003D2E0F /* ProfileTableViewController.swift */; };
+		BE57DF86228B2799003D2E0F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57DF85228B2799003D2E0F /* Profile.swift */; };
+		BE57DF88228B27E6003D2E0F /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57DF87228B27E6003D2E0F /* Routes.swift */; };
+		BE57DF8A228B2AD3003D2E0F /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE57DF89228B2AD3003D2E0F /* Settings.storyboard */; };
+		BE57DF8C228B2B90003D2E0F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE57DF8B228B2B90003D2E0F /* SettingsTableViewController.swift */; };
 		BEB268D0228B1E9A00A06FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB268CF228B1E9A00A06FF7 /* AppDelegate.swift */; };
-		BEB268D2228B1E9A00A06FF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB268D1228B1E9A00A06FF7 /* ViewController.swift */; };
 		BEB268D5228B1E9A00A06FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB268D3228B1E9A00A06FF7 /* Main.storyboard */; };
 		BEB268D7228B1E9C00A06FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB268D6228B1E9C00A06FF7 /* Assets.xcassets */; };
 		BEB268DA228B1E9C00A06FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB268D8228B1E9C00A06FF7 /* LaunchScreen.storyboard */; };
@@ -19,9 +25,15 @@
 /* Begin PBXFileReference section */
 		3FDD441D1C293C82F3688B21 /* Pods_Navigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Navigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0A6CD1228B1FA6003CCC96 /* Instantiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiation.swift; sourceTree = "<group>"; };
+		BE57DF7F228B219F003D2E0F /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		BE57DF81228B26EB003D2E0F /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BE57DF83228B2764003D2E0F /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		BE57DF85228B2799003D2E0F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		BE57DF87228B27E6003D2E0F /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		BE57DF89228B2AD3003D2E0F /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		BE57DF8B228B2B90003D2E0F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		BEB268CC228B1E9A00A06FF7 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB268CF228B1E9A00A06FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEB268D1228B1E9A00A06FF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB268D4228B1E9A00A06FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB268D6228B1E9C00A06FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB268D9228B1E9C00A06FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +62,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BE57DF8D228B2C51003D2E0F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEB268D3228B1E9A00A06FF7 /* Main.storyboard */,
+				BE57DF81228B26EB003D2E0F /* Profile.storyboard */,
+				BE57DF89228B2AD3003D2E0F /* Settings.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BE57DF8E228B2D64003D2E0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE57DF85228B2799003D2E0F /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE57DF8F228B2D81003D2E0F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A6CD1228B1FA6003CCC96 /* Instantiation.swift */,
+				BE57DF87228B27E6003D2E0F /* Routes.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BE57DF90228B2DB7003D2E0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE57DF7F228B219F003D2E0F /* UsersTableViewController.swift */,
+				BE57DF83228B2764003D2E0F /* ProfileTableViewController.swift */,
+				BE57DF8B228B2B90003D2E0F /* SettingsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		BEB268C3228B1E9A00A06FF7 = {
 			isa = PBXGroup;
 			children = (
@@ -72,9 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				BEB268CF228B1E9A00A06FF7 /* AppDelegate.swift */,
-				BE0A6CD1228B1FA6003CCC96 /* Instantiation.swift */,
-				BEB268D1228B1E9A00A06FF7 /* ViewController.swift */,
-				BEB268D3228B1E9A00A06FF7 /* Main.storyboard */,
+				BE57DF90228B2DB7003D2E0F /* ViewControllers */,
+				BE57DF8F228B2D81003D2E0F /* Navigation */,
+				BE57DF8E228B2D64003D2E0F /* Model */,
+				BE57DF8D228B2C51003D2E0F /* Storyboards */,
 				BEB268D6228B1E9C00A06FF7 /* Assets.xcassets */,
 				BEB268D8228B1E9C00A06FF7 /* LaunchScreen.storyboard */,
 				BEB268DB228B1E9C00A06FF7 /* Info.plist */,
@@ -88,7 +138,6 @@
 				CC5CD2B402C7D4CA79C0D763 /* Pods-Navigation.debug.xcconfig */,
 				FBBDBAA45B5E8D8CDCB1AD5E /* Pods-Navigation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,7 +203,9 @@
 			files = (
 				BEB268DA228B1E9C00A06FF7 /* LaunchScreen.storyboard in Resources */,
 				BEB268D7228B1E9C00A06FF7 /* Assets.xcassets in Resources */,
+				BE57DF82228B26EB003D2E0F /* Profile.storyboard in Resources */,
 				BEB268D5228B1E9A00A06FF7 /* Main.storyboard in Resources */,
+				BE57DF8A228B2AD3003D2E0F /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,9 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB268D2228B1E9A00A06FF7 /* ViewController.swift in Sources */,
 				BE0A6CD2228B1FA7003CCC96 /* Instantiation.swift in Sources */,
+				BE57DF88228B27E6003D2E0F /* Routes.swift in Sources */,
+				BE57DF86228B2799003D2E0F /* Profile.swift in Sources */,
 				BEB268D0228B1E9A00A06FF7 /* AppDelegate.swift in Sources */,
+				BE57DF84228B2764003D2E0F /* ProfileTableViewController.swift in Sources */,
+				BE57DF80228B219F003D2E0F /* UsersTableViewController.swift in Sources */,
+				BE57DF8C228B2B90003D2E0F /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
