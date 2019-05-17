@@ -1,2 +1,2 @@
 # Navigation
-Lightweight navigation using protocol extenstions
+Lightweight navigation using protocol extensions
